@@ -185,6 +185,7 @@
 					};
 					4AA59E4C1C4FD77900E80AAB = {
 						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4AA59E381C4FD77900E80AAB;
 					};
 				};
 			};
@@ -439,6 +440,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeroleaf.LeetCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeetCode.app/LeetCode";
 			};
 			name = Debug;
 		};
@@ -450,6 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeroleaf.LeetCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeetCode.app/LeetCode";
 			};
 			name = Release;
 		};
