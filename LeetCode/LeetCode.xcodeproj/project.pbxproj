@@ -15,6 +15,7 @@
 		4AA59E421C4FD77900E80AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA59E401C4FD77900E80AAB /* Main.storyboard */; };
 		4AA59E441C4FD77900E80AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA59E431C4FD77900E80AAB /* Assets.xcassets */; };
 		4AA59E471C4FD77900E80AAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA59E451C4FD77900E80AAB /* LaunchScreen.storyboard */; };
+		4AB9984B1C51008600E5A481 /* 4_MedianOfTwoSortedArraysSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9984A1C51008600E5A481 /* 4_MedianOfTwoSortedArraysSpec.swift */; };
 		7C8716E4CF4E8471E7D57CF5 /* Pods_LeetCodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A705AF66EEBDFD75DBDE88A0 /* Pods_LeetCodeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		4AA59E481C4FD77900E80AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AA59E4D1C4FD77900E80AAB /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA59E531C4FD77900E80AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB9984A1C51008600E5A481 /* 4_MedianOfTwoSortedArraysSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 4_MedianOfTwoSortedArraysSpec.swift; sourceTree = "<group>"; };
 		A705AF66EEBDFD75DBDE88A0 /* Pods_LeetCodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeetCodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 				4A358FA61C4FD86F00CEFBF5 /* 1_TwoSumTest.swift */,
 				4A358FA71C4FD86F00CEFBF5 /* 2_AddTwoNumbersTest.swift */,
 				4A358FA81C4FD86F00CEFBF5 /* 3_LongestSubstringWithoutRepeatingCharactersTest.swift */,
+				4AB9984A1C51008600E5A481 /* 4_MedianOfTwoSortedArraysSpec.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB9984B1C51008600E5A481 /* 4_MedianOfTwoSortedArraysSpec.swift in Sources */,
 				4A358FA91C4FD86F00CEFBF5 /* 1_TwoSumTest.swift in Sources */,
 				4A358FAA1C4FD86F00CEFBF5 /* 2_AddTwoNumbersTest.swift in Sources */,
 				4A358FAB1C4FD86F00CEFBF5 /* 3_LongestSubstringWithoutRepeatingCharactersTest.swift in Sources */,
@@ -342,6 +346,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -386,6 +391,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
