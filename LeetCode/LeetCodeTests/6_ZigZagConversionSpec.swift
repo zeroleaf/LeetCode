@@ -43,30 +43,26 @@ class ZigZagConversion {
         }
 
         let n = s.characters.count, d = 2 * (numRows - 1)
-        var indices = [Int](count: n, repeatedValue: 0)
-        var index = 0
+        var r = ""
 
         for var row = 0; row < numRows; row++ {
+            var idx = row
             if row == 0 || row == numRows - 1 {
-                for var j = row; j < n; j += d {
-                    indices[index++] = j
+                while idx < n {
+                    r += "\(s[idx])"
+                    idx += d
                 }
             } else {
-                var r = 2 * row
-                for var j = row; j < n; {
-                    indices[index++] = j
-                    r = d - r
-                    j += r
+                var ni = d - 2 * row
+                while idx < n {
+                    r += "\(s[idx])"
+                    idx += ni
+                    ni = d - ni
                 }
             }
         }
 
-        var cs = [Character](count: n, repeatedValue: "0")
-        for (i, si) in indices.enumerate() {
-            cs[i] = s[si]
-        }
-
-        return String(cs)
+        return r
     }
 }
 
@@ -89,6 +85,11 @@ class ZigZagConversionSpec: QuickSpec {
             it("Case 1") {
                 let s = "PAYPALISHIRING"
                 expect(solution.convert(s, 3)).to(equal("PAHNAPLSIIGYIR"))
+            }
+
+            it("Long strong") {
+                let s = "fuxxhzkdlmcpcolhacxyhzqhgetgriewfbwobgrovwfxkqemuencfdlljetapxzubvkcdbsazyxlqeylinppqaacgwextdtuadyghtggrgsjkswufljxnlzwhetdjnzksaqztyimeavouskzfvwthyrqckvnzvzuvpvqodcufxjzrvaxrxsaxjsbvooxlorifmyvsaqxzbzrwzqpykrvvkwsalpnbivgxtcrvuouvnntpfjnpajkmfdosubtfwacretmyjjvzyooezdvcmgouldohgimdkqwqllqxwlyuzmybrudecrapwoydynikfearrqqnboidcietehzgazxzqycqlkbqqbjiuzvvpfarognspmbqoargytwjfxaxblfvldscivuybhrrvujjuartvoecngzoshjfkehuzdtcmkvigetaglvdbafoifdamohyupstslwfxtpdyiggvbkwdrlmwqokgwiblbwfoummodromxujbggeytqwjhjrdrsqurxllmzzpqpbqmnrstvsoorzvaqatlqqcpbpbarrsguishzlcvfqlwpiyiiutakxrnmtndmhkgqcqrpuoxlzvchukrqftaclnpecuqjeybjqtalhzyhvcqrpkhudhzowquykkjrllcdeeqleqsbtlukvbeykfngxhgkupdhahmeldqrtksoxmyspftzkihkrpunhxuhejormgjhsdwqswihb"
+                expect(solution.convert(s, 144)).to(equal(""))
             }
         }
     }
