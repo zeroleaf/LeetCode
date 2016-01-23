@@ -1,9 +1,5 @@
 package com.zeroleaf.leetcode;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * Created by zeroleaf on 2015/4/10.
  */
