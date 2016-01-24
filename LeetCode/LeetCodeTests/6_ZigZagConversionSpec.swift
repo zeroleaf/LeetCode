@@ -87,10 +87,10 @@ class ZigZagConversionSpec: QuickSpec {
                 expect(solution.convert(s, 3)).to(equal("PAHNAPLSIIGYIR"))
             }
 
-            it("Long strong") {
-                let s = "fuxxhzkdlmcpcolhacxyhzqhgetgriewfbwobgrovwfxkqemuencfdlljetapxzubvkcdbsazyxlqeylinppqaacgwextdtuadyghtggrgsjkswufljxnlzwhetdjnzksaqztyimeavouskzfvwthyrqckvnzvzuvpvqodcufxjzrvaxrxsaxjsbvooxlorifmyvsaqxzbzrwzqpykrvvkwsalpnbivgxtcrvuouvnntpfjnpajkmfdosubtfwacretmyjjvzyooezdvcmgouldohgimdkqwqllqxwlyuzmybrudecrapwoydynikfearrqqnboidcietehzgazxzqycqlkbqqbjiuzvvpfarognspmbqoargytwjfxaxblfvldscivuybhrrvujjuartvoecngzoshjfkehuzdtcmkvigetaglvdbafoifdamohyupstslwfxtpdyiggvbkwdrlmwqokgwiblbwfoummodromxujbggeytqwjhjrdrsqurxllmzzpqpbqmnrstvsoorzvaqatlqqcpbpbarrsguishzlcvfqlwpiyiiutakxrnmtndmhkgqcqrpuoxlzvchukrqftaclnpecuqjeybjqtalhzyhvcqrpkhudhzowquykkjrllcdeeqleqsbtlukvbeykfngxhgkupdhahmeldqrtksoxmyspftzkihkrpunhxuhejormgjhsdwqswihb"
-                expect(solution.convert(s, 144)).to(equal(""))
-            }
+//            it("Long strong") {
+//                let s = "fuxxhzkdlmcpcolhacxyhzqhgetgriewfbwobgrovwfxkqemuencfdlljetapxzubvkcdbsazyxlqeylinppqaacgwextdtuadyghtggrgsjkswufljxnlzwhetdjnzksaqztyimeavouskzfvwthyrqckvnzvzuvpvqodcufxjzrvaxrxsaxjsbvooxlorifmyvsaqxzbzrwzqpykrvvkwsalpnbivgxtcrvuouvnntpfjnpajkmfdosubtfwacretmyjjvzyooezdvcmgouldohgimdkqwqllqxwlyuzmybrudecrapwoydynikfearrqqnboidcietehzgazxzqycqlkbqqbjiuzvvpfarognspmbqoargytwjfxaxblfvldscivuybhrrvujjuartvoecngzoshjfkehuzdtcmkvigetaglvdbafoifdamohyupstslwfxtpdyiggvbkwdrlmwqokgwiblbwfoummodromxujbggeytqwjhjrdrsqurxllmzzpqpbqmnrstvsoorzvaqatlqqcpbpbarrsguishzlcvfqlwpiyiiutakxrnmtndmhkgqcqrpuoxlzvchukrqftaclnpecuqjeybjqtalhzyhvcqrpkhudhzowquykkjrllcdeeqleqsbtlukvbeykfngxhgkupdhahmeldqrtksoxmyspftzkihkrpunhxuhejormgjhsdwqswihb"
+//                expect(solution.convert(s, 144)).to(equal(""))
+//            }
         }
     }
 }
