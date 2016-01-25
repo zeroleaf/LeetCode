@@ -12,6 +12,7 @@
 		4A358FAB1C4FD86F00CEFBF5 /* 3_LongestSubstringWithoutRepeatingCharactersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A358FA81C4FD86F00CEFBF5 /* 3_LongestSubstringWithoutRepeatingCharactersTest.swift */; };
 		4A8238FE1C5274FF00C81292 /* 5_LongestPalindromicSubstringSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8238FD1C5274FF00C81292 /* 5_LongestPalindromicSubstringSpec.swift */; };
 		4A83497B1C54647800D397C5 /* 7_ReverseIntegerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A83497A1C54647800D397C5 /* 7_ReverseIntegerSpec.swift */; };
+		4A8648A51C5661EE002CE67D /* 8_StringToIntegerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8648A41C5661EE002CE67D /* 8_StringToIntegerSpec.swift */; };
 		4AA59E3D1C4FD77900E80AAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA59E3C1C4FD77900E80AAB /* AppDelegate.swift */; };
 		4AA59E3F1C4FD77900E80AAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA59E3E1C4FD77900E80AAB /* ViewController.swift */; };
 		4AA59E421C4FD77900E80AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA59E401C4FD77900E80AAB /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		4A358FA81C4FD86F00CEFBF5 /* 3_LongestSubstringWithoutRepeatingCharactersTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3_LongestSubstringWithoutRepeatingCharactersTest.swift; sourceTree = "<group>"; };
 		4A8238FD1C5274FF00C81292 /* 5_LongestPalindromicSubstringSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 5_LongestPalindromicSubstringSpec.swift; sourceTree = "<group>"; };
 		4A83497A1C54647800D397C5 /* 7_ReverseIntegerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 7_ReverseIntegerSpec.swift; sourceTree = "<group>"; };
+		4A8648A41C5661EE002CE67D /* 8_StringToIntegerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 8_StringToIntegerSpec.swift; sourceTree = "<group>"; };
 		4AA59E391C4FD77900E80AAB /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA59E3C1C4FD77900E80AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA59E3E1C4FD77900E80AAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				4A8238FD1C5274FF00C81292 /* 5_LongestPalindromicSubstringSpec.swift */,
 				4AAFD9991C5385EF0066F709 /* 6_ZigZagConversionSpec.swift */,
 				4A83497A1C54647800D397C5 /* 7_ReverseIntegerSpec.swift */,
+				4A8648A41C5661EE002CE67D /* 8_StringToIntegerSpec.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				4A8238FE1C5274FF00C81292 /* 5_LongestPalindromicSubstringSpec.swift in Sources */,
 				4A83497B1C54647800D397C5 /* 7_ReverseIntegerSpec.swift in Sources */,
 				4A358FAB1C4FD86F00CEFBF5 /* 3_LongestSubstringWithoutRepeatingCharactersTest.swift in Sources */,
+				4A8648A51C5661EE002CE67D /* 8_StringToIntegerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
