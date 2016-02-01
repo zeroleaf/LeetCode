@@ -136,13 +136,6 @@ class LongestPalindromicSubstring {
     }
 }
 
-extension String {
-
-    subscript (i: Int) -> Character {
-        return self[self.startIndex.advancedBy(i)]
-    }
-}
-
 class LongestPalindromicSubstringSpec: QuickSpec {
 
     override func spec() {
