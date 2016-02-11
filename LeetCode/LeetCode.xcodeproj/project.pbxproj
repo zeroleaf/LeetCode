@@ -24,6 +24,7 @@
 		4AAFD99A1C5385EF0066F709 /* 6_ZigZagConversionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFD9991C5385EF0066F709 /* 6_ZigZagConversionSpec.swift */; };
 		4AB9984B1C51008600E5A481 /* 4_MedianOfTwoSortedArraysSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9984A1C51008600E5A481 /* 4_MedianOfTwoSortedArraysSpec.swift */; };
 		4ACF774E1C660C7900FEB852 /* 11_ContainerWithMostWaterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF774D1C660C7900FEB852 /* 11_ContainerWithMostWaterSpec.swift */; };
+		4ADC2B451C6CDC93000FAA07 /* 12_IntegerToRomanSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC2B441C6CDC93000FAA07 /* 12_IntegerToRomanSpec.swift */; };
 		7C8716E4CF4E8471E7D57CF5 /* Pods_LeetCodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A705AF66EEBDFD75DBDE88A0 /* Pods_LeetCodeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		4AAFD9991C5385EF0066F709 /* 6_ZigZagConversionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 6_ZigZagConversionSpec.swift; sourceTree = "<group>"; };
 		4AB9984A1C51008600E5A481 /* 4_MedianOfTwoSortedArraysSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 4_MedianOfTwoSortedArraysSpec.swift; sourceTree = "<group>"; };
 		4ACF774D1C660C7900FEB852 /* 11_ContainerWithMostWaterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 11_ContainerWithMostWaterSpec.swift; sourceTree = "<group>"; };
+		4ADC2B441C6CDC93000FAA07 /* 12_IntegerToRomanSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 12_IntegerToRomanSpec.swift; sourceTree = "<group>"; };
 		A705AF66EEBDFD75DBDE88A0 /* Pods_LeetCodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeetCodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -148,6 +150,7 @@
 				4A1677F51C57B848008FA6E3 /* 9_PalindromeNumberSpec.swift */,
 				4A1677F71C57BB8C008FA6E3 /* 10_RegularExpressionMatchingSpec.swift */,
 				4ACF774D1C660C7900FEB852 /* 11_ContainerWithMostWaterSpec.swift */,
+				4ADC2B441C6CDC93000FAA07 /* 12_IntegerToRomanSpec.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB9984B1C51008600E5A481 /* 4_MedianOfTwoSortedArraysSpec.swift in Sources */,
+				4ADC2B451C6CDC93000FAA07 /* 12_IntegerToRomanSpec.swift in Sources */,
 				4A1677FC1C57BD92008FA6E3 /* Strings.swift in Sources */,
 				4A358FA91C4FD86F00CEFBF5 /* 1_TwoSumTest.swift in Sources */,
 				4AAFD99A1C5385EF0066F709 /* 6_ZigZagConversionSpec.swift in Sources */,

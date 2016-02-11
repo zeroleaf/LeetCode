@@ -42,6 +42,7 @@ class ContainerWithMostWater {
 //    }
 
     // Inspired by https://leetcode.com/discuss/1074/anyone-who-has-a-o-n-algorithm
+    // Proof by contradiction.
     func maxArea(height: [Int]) -> Int {
 
         let len = height.count

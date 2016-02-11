@@ -10,7 +10,16 @@ import Foundation
 
 extension String {
 
+//    infix operator * {
+//        associativity none
+//        precedence 160
+//    }
+
     subscript (i: Int) -> Character {
         return self[self.startIndex.advancedBy(i)]
     }
+
+//    func * (lhs: String, rhs: Int) -> String {
+//
+//    }
 }
