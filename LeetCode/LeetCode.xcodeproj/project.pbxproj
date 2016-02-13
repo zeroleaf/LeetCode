@@ -28,6 +28,7 @@
 		4ADC2B491C6DCFFC000FAA07 /* 13_RomanToIntegerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC2B481C6DCFFC000FAA07 /* 13_RomanToIntegerSpec.swift */; };
 		4ADC2B4B1C6DD3ED000FAA07 /* 14_LongestCommonPrefixSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC2B4A1C6DD3ED000FAA07 /* 14_LongestCommonPrefixSpec.swift */; };
 		4ADC2B4D1C6ED4E5000FAA07 /* 303_RangeSumQuerySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC2B4C1C6ED4E5000FAA07 /* 303_RangeSumQuerySpec.swift */; };
+		4ADC2B4F1C6EDD0F000FAA07 /* 32_LongestValidParenthesesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC2B4E1C6EDD0F000FAA07 /* 32_LongestValidParenthesesSpec.swift */; };
 		7C8716E4CF4E8471E7D57CF5 /* Pods_LeetCodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A705AF66EEBDFD75DBDE88A0 /* Pods_LeetCodeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		4ADC2B481C6DCFFC000FAA07 /* 13_RomanToIntegerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 13_RomanToIntegerSpec.swift; sourceTree = "<group>"; };
 		4ADC2B4A1C6DD3ED000FAA07 /* 14_LongestCommonPrefixSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 14_LongestCommonPrefixSpec.swift; sourceTree = "<group>"; };
 		4ADC2B4C1C6ED4E5000FAA07 /* 303_RangeSumQuerySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 303_RangeSumQuerySpec.swift; sourceTree = "<group>"; };
+		4ADC2B4E1C6EDD0F000FAA07 /* 32_LongestValidParenthesesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 32_LongestValidParenthesesSpec.swift; sourceTree = "<group>"; };
 		A705AF66EEBDFD75DBDE88A0 /* Pods_LeetCodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeetCodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -160,6 +162,7 @@
 				4ADC2B481C6DCFFC000FAA07 /* 13_RomanToIntegerSpec.swift */,
 				4ADC2B4A1C6DD3ED000FAA07 /* 14_LongestCommonPrefixSpec.swift */,
 				4ADC2B4C1C6ED4E5000FAA07 /* 303_RangeSumQuerySpec.swift */,
+				4ADC2B4E1C6EDD0F000FAA07 /* 32_LongestValidParenthesesSpec.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				4A8238FE1C5274FF00C81292 /* 5_LongestPalindromicSubstringSpec.swift in Sources */,
 				4ACF774E1C660C7900FEB852 /* 11_ContainerWithMostWaterSpec.swift in Sources */,
 				4A83497B1C54647800D397C5 /* 7_ReverseIntegerSpec.swift in Sources */,
+				4ADC2B4F1C6EDD0F000FAA07 /* 32_LongestValidParenthesesSpec.swift in Sources */,
 				4A358FAB1C4FD86F00CEFBF5 /* 3_LongestSubstringWithoutRepeatingCharactersTest.swift in Sources */,
 				4A1677F61C57B848008FA6E3 /* 9_PalindromeNumberSpec.swift in Sources */,
 				4A1677F81C57BB8C008FA6E3 /* 10_RegularExpressionMatchingSpec.swift in Sources */,
